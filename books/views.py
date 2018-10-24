@@ -5,12 +5,19 @@ from rest_framework import viewsets, mixins, serializers
 from .models import Author, Book
 from .serializers import AuthorListSerializer, AuthorDetailSerializer, BookSerializer, BookDetailSerializer
 
+from django.contrib.auth import authenticate
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework.status import HTTP_401_UNAUTHORIZED
+from rest_framework.authtoken.models import Token
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
 class BookViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows books to be viewed
     """
     queryset = Book.objects.all()
+    permission_classes = (IsAuthenticatedOrReadOnly,)
 
     def get_serializer_class(self):
         if self.action == 'list' or self.action == 'retrieve':
@@ -38,6 +45,7 @@ class AuthorViewSet(viewsets.ModelViewSet):
     API endpoint that allows authors to be viewed
     """
     queryset = Author.objects.all()
+    permission_classes = (IsAuthenticatedOrReadOnly,)
 
     def get_serializer_class(self):
         if self.action == 'list':

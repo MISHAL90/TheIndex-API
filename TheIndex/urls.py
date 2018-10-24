@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
+from rest_framework.routers import SimpleRouter
 from rest_framework import routers
 from books import views
 
@@ -25,12 +25,12 @@ class OptionalSlashRouter(routers.DefaultRouter):
         self.trailing_slash = '/?'
         super(routers.DefaultRouter, self).__init__()
 
-
-router = OptionalSlashRouter()
-router.register(r'books', views.BookViewSet)
-router.register(r'authors', views.AuthorViewSet)
+router = SimpleRouter()
+router.register("books", views.BookViewSet)
+router.register('authors', views.AuthorViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls))
+    path('api/', include(router.urls)),
+    path('login/', views.login)
 ]
