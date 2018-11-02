@@ -11,24 +11,25 @@ class AuthorListingField(serializers.RelatedField):
 
 
 class BookSerializer(serializers.ModelSerializer):
-    color = serializers.SerializerMethodField()
+    authors = serializers.PrimaryKeyRelatedField(many=True, queryset=Author.objects.all())
+
+    class Meta:
+        model = Book
+        exclude = ('created',)
+
+    
+
+
+class BookDetailSerializer(serializers.ModelSerializer):
+    color = serializers.CharField(source='get_color_display')
     authors = AuthorListingField(many=True, read_only=True)
 
     class Meta:
         model = Book
         exclude = ('created',)
 
-    def get_color(self, obj):
-        return obj.get_color_display()
-
-
-class BookListingField(serializers.RelatedField):
-    def to_representation(self, value):
-        return value.id
-
 
 class AuthorListSerializer(serializers.ModelSerializer):
-    books = BookListingField(many=True, read_only=True)
 
     class Meta:
         model = Author
@@ -36,7 +37,7 @@ class AuthorListSerializer(serializers.ModelSerializer):
 
 
 class AuthorDetailSerializer(serializers.ModelSerializer):
-    books = BookSerializer(many=True, read_only=True)
+    books = BookDetailSerializer(many=True, read_only=True)
 
     class Meta:
         model = Author
