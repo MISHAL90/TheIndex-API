@@ -24,15 +24,15 @@ class Author(models.Model):
 
 class Book(models.Model):
     COLOR_CHOICES = (
-        ('R', 'red'),
-        ('B', 'blue'),
-        ('G', 'green'),
-        ('Y', 'yellow'),
-        ('K', 'black'),
-        ('W', 'white'),
-        ('Gr', 'grey'),
-        ('P', 'purple'),
-        ('O', 'orange'),
+        ('red', 'red'),
+        ('blue', 'blue'),
+        ('green', 'green'),
+        ('yellow', 'yellow'),
+        ('black', 'black'),
+        ('white', 'white'),
+        ('grey', 'grey'),
+        ('pruple', 'purple'),
+        ('orange', 'orange'),
     )
     created = models.DateTimeField(auto_now_add=True)
     title = models.CharField(max_length=255)

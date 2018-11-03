@@ -1,511 +1,563 @@
-[{
-  "model": "books.book",
-  "pk": 1,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Harry Potter and the Philosopher's Stone",
-    "available": true,
-    "color": "R",
-    "authors": [1]
+[
+  {
+    "model": "books.book",
+    "pk": 1,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "available": true,
+      "color": "red",
+      "authors": [1]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 2,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "available": true,
+      "color": "blue",
+      "authors": [1]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Harry Potter and the Prizoner of Azkaban",
+      "available": true,
+      "color": "purple",
+      "authors": [1]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Harry Potter and the Goblet of Fire",
+      "available": true,
+      "color": "red",
+      "authors": [1]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 5,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "available": true,
+      "color": "yellow",
+      "authors": [1]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 6,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "available": true,
+      "color": "blue",
+      "authors": [1]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 7,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Harry Potter and the Deathly Hallows",
+      "available": true,
+      "color": "black",
+      "authors": [1]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 8,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "A Game of Thrones",
+      "available": true,
+      "color": "blue",
+      "authors": [2]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 9,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "A Clash of Kings",
+      "available": true,
+      "color": "yellow",
+      "authors": [2]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 10,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "A Storm of Swords",
+      "available": true,
+      "color": "green",
+      "authors": [2]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 11,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "A Feast for Crows",
+      "available": true,
+      "color": "red",
+      "authors": [2]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 12,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "A Dance With Dragons",
+      "available": true,
+      "color": "white",
+      "authors": [2]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 13,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "The Hobbit",
+      "available": true,
+      "color": "black",
+      "authors": [3]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 14,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "The Fellowship of the Ring",
+      "available": true,
+      "color": "green",
+      "authors": [3]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 15,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "The Two Towers",
+      "available": true,
+      "color": "red",
+      "authors": [3]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 16,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "The Return of the King",
+      "available": true,
+      "color": "blue",
+      "authors": [3]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 17,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "The Silmarillion",
+      "available": true,
+      "color": "black",
+      "authors": [3]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 18,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Oryx and Crake",
+      "available": true,
+      "color": "green",
+      "authors": [4]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 19,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "The Year of the Flood",
+      "available": true,
+      "color": "green",
+      "authors": [4]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 20,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "MaddAddam",
+      "available": true,
+      "color": "blue",
+      "authors": [4]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 21,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "The Handmaid's Tale",
+      "available": true,
+      "color": "red",
+      "authors": [4]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 22,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Palace Walk",
+      "available": true,
+      "color": "red",
+      "authors": [5]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 23,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Sugar Street",
+      "available": true,
+      "color": "blue",
+      "authors": [5]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 24,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Miramar",
+      "available": true,
+      "color": "grey",
+      "authors": [5]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 25,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Respected Sir",
+      "available": true,
+      "color": "blue",
+      "authors": [5]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 26,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Murder on the Orient Express",
+      "available": true,
+      "color": "black",
+      "authors": [6]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 27,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Death on the Nile",
+      "available": true,
+      "color": "green",
+      "authors": [6]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 28,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "The Mousetrap",
+      "available": true,
+      "color": "white",
+      "authors": [6]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 29,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "The Man in the Brown Suit",
+      "available": true,
+      "color": "green",
+      "authors": [6]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 30,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Curtain: Poirot's Last Case",
+      "available": true,
+      "color": "yellow",
+      "authors": [6]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 31,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "12 Rules for Life: An Antidote to Chaos",
+      "available": true,
+      "color": "white",
+      "authors": [7]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 32,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "title": "Maps of Meaning: The Architecture of Belief",
+      "available": true,
+      "color": "white",
+      "authors": [7]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 33,
+    "fields": {
+      "created": "2018-03-05T10:43:36.359Z",
+      "title": "Musicophilia",
+      "available": true,
+      "color": "blue",
+      "authors": [8]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 34,
+    "fields": {
+      "created": "2018-03-05T10:44:11.746Z",
+      "title": "The Man Who Mistook His Wife for a Hat",
+      "available": true,
+      "color": "white",
+      "authors": [8]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 35,
+    "fields": {
+      "created": "2018-03-05T10:44:49.974Z",
+      "title": "Awakenings",
+      "available": true,
+      "color": "white",
+      "authors": [8]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 36,
+    "fields": {
+      "created": "2018-03-05T10:48:06.032Z",
+      "title": "Zoo City",
+      "available": true,
+      "color": "white",
+      "authors": [9]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 37,
+    "fields": {
+      "created": "2018-03-05T10:48:21.023Z",
+      "title": "The Shining Girls",
+      "available": true,
+      "color": "red",
+      "authors": [9]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 38,
+    "fields": {
+      "created": "2018-03-05T10:49:52.575Z",
+      "title": "Eleanor and Park",
+      "available": true,
+      "color": "white",
+      "authors": [10]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 39,
+    "fields": {
+      "created": "2018-03-05T10:50:01.885Z",
+      "title": "Fangirl",
+      "available": true,
+      "color": "green",
+      "authors": [10]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 40,
+    "fields": {
+      "created": "2018-03-05T12:12:00.671Z",
+      "title": "Jane Eyre",
+      "available": true,
+      "color": "black",
+      "authors": [11]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 41,
+    "fields": {
+      "created": "2018-03-05T12:17:11.613Z",
+      "title": "How to Live Safely in a Science Fictional Universe",
+      "available": true,
+      "color": "red",
+      "authors": [12]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 42,
+    "fields": {
+      "created": "2018-03-05T12:17:49.407Z",
+      "title": "Sorry Please Thank You",
+      "available": true,
+      "color": "white",
+      "authors": [12]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 43,
+    "fields": {
+      "created": "2018-03-05T12:19:07.679Z",
+      "title": "The Importance of Being Earnest",
+      "available": true,
+      "color": "black",
+      "authors": [13]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 44,
+    "fields": {
+      "created": "2018-03-05T12:20:11.854Z",
+      "title": "The Picture of Dorian Gray",
+      "available": true,
+      "color": "grey",
+      "authors": [13]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 45,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "The Selfish Giant",
+      "available": true,
+      "color": "blue",
+      "authors": [13]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 46,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "Good Omens",
+      "available": true,
+      "color": "black",
+      "authors": [14, 15]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 47,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "Neverwhere",
+      "available": true,
+      "color": "green",
+      "authors": [15]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 48,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "Coraline",
+      "available": true,
+      "color": "purple",
+      "authors": [15]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 49,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "The Color of Magic",
+      "available": true,
+      "color": "orange",
+      "authors": [14]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 50,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "Wee Free Men",
+      "available": true,
+      "color": "blue",
+      "authors": [14]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 51,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "The Hogfather",
+      "available": true,
+      "color": "yellow",
+      "authors": [14]
+    }
   }
-}, {
-  "model": "books.book",
-  "pk": 2,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Harry Potter and the Chamber of Secrets",
-    "available": true,
-    "color": "B",
-    "authors": [1]
-  }
-}, {
-  "model": "books.book",
-  "pk": 3,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Harry Potter and the Prizoner of Azkaban",
-    "available": true,
-    "color": "P",
-    "authors": [1]
-  }
-}, {
-  "model": "books.book",
-  "pk": 4,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Harry Potter and the Goblet of Fire",
-    "available": true,
-    "color": "R",
-    "authors": [1]
-  }
-}, {
-  "model": "books.book",
-  "pk": 5,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Harry Potter and the Order of the Phoenix",
-    "available": true,
-    "color": "Y",
-    "authors": [1]
-  }
-}, {
-  "model": "books.book",
-  "pk": 6,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Harry Potter and the Half-Blood Prince",
-    "available": true,
-    "color": "B",
-    "authors": [1]
-  }
-}, {
-  "model": "books.book",
-  "pk": 7,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Harry Potter and the Deathly Hallows",
-    "available": true,
-    "color": "K",
-    "authors": [1]
-  }
-}, {
-  "model": "books.book",
-  "pk": 8,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "A Game of Thrones",
-    "available": true,
-    "color": "B",
-    "authors": [2]
-  }
-}, {
-  "model": "books.book",
-  "pk": 9,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "A Clash of Kings",
-    "available": true,
-    "color": "Y",
-    "authors": [2]
-  }
-}, {
-  "model": "books.book",
-  "pk": 10,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "A Storm of Swords",
-    "available": true,
-    "color": "G",
-    "authors": [2]
-  }
-}, {
-  "model": "books.book",
-  "pk": 11,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "A Feast for Crows",
-    "available": true,
-    "color": "R",
-    "authors": [2]
-  }
-}, {
-  "model": "books.book",
-  "pk": 12,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "A Dance With Dragons",
-    "available": true,
-    "color": "W",
-    "authors": [2]
-  }
-}, {
-  "model": "books.book",
-  "pk": 13,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "The Hobbit",
-    "available": true,
-    "color": "K",
-    "authors": [3]
-  }
-}, {
-  "model": "books.book",
-  "pk": 14,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "The Fellowship of the Ring",
-    "available": true,
-    "color": "G",
-    "authors": [3]
-  }
-}, {
-  "model": "books.book",
-  "pk": 15,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "The Two Towers",
-    "available": true,
-    "color": "R",
-    "authors": [3]
-  }
-}, {
-  "model": "books.book",
-  "pk": 16,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "The Return of the King",
-    "available": true,
-    "color": "B",
-    "authors": [3]
-  }
-}, {
-  "model": "books.book",
-  "pk": 17,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "The Silmarillion",
-    "available": true,
-    "color": "K",
-    "authors": [3]
-  }
-}, {
-  "model": "books.book",
-  "pk": 18,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Oryx and Crake",
-    "available": true,
-    "color": "G",
-    "authors": [4]
-  }
-}, {
-  "model": "books.book",
-  "pk": 19,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "The Year of the Flood",
-    "available": true,
-    "color": "G",
-    "authors": [4]
-  }
-}, {
-  "model": "books.book",
-  "pk": 20,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "MaddAddam",
-    "available": true,
-    "color": "B",
-    "authors": [4]
-  }
-}, {
-  "model": "books.book",
-  "pk": 21,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "The Handmaid's Tale",
-    "available": true,
-    "color": "R",
-    "authors": [4]
-  }
-}, {
-  "model": "books.book",
-  "pk": 22,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Palace Walk",
-    "available": true,
-    "color": "R",
-    "authors": [5]
-  }
-}, {
-  "model": "books.book",
-  "pk": 23,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Sugar Street",
-    "available": true,
-    "color": "B",
-    "authors": [5]
-  }
-}, {
-  "model": "books.book",
-  "pk": 24,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Miramar",
-    "available": true,
-    "color": "Gr",
-    "authors": [5]
-  }
-}, {
-  "model": "books.book",
-  "pk": 25,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Respected Sir",
-    "available": true,
-    "color": "B",
-    "authors": [5]
-  }
-}, {
-  "model": "books.book",
-  "pk": 26,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Murder on the Orient Express",
-    "available": true,
-    "color": "K",
-    "authors": [6]
-  }
-}, {
-  "model": "books.book",
-  "pk": 27,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Death on the Nile",
-    "available": true,
-    "color": "G",
-    "authors": [6]
-  }
-}, {
-  "model": "books.book",
-  "pk": 28,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "The Mousetrap",
-    "available": true,
-    "color": "W",
-    "authors": [6]
-  }
-}, {
-  "model": "books.book",
-  "pk": 29,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "The Man in the Brown Suit",
-    "available": true,
-    "color": "G",
-    "authors": [6]
-  }
-}, {
-  "model": "books.book",
-  "pk": 30,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Curtain: Poirot's Last Case",
-    "available": true,
-    "color": "Y",
-    "authors": [6]
-  }
-}, {
-  "model": "books.book",
-  "pk": 31,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "12 Rules for Life: An Antidote to Chaos",
-    "available": true,
-    "color": "W",
-    "authors": [7]
-  }
-}, {
-  "model": "books.book",
-  "pk": 32,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "title": "Maps of Meaning: The Architecture of Belief",
-    "available": true,
-    "color": "W",
-    "authors": [7]
-  }
-}, {
-  "model": "books.book",
-  "pk": 33,
-  "fields": {
-    "created": "2018-03-05T10:43:36.359Z",
-    "title": "Musicophilia",
-    "available": true,
-    "color": "B",
-    "authors": [8]
-  }
-}, {
-  "model": "books.book",
-  "pk": 34,
-  "fields": {
-    "created": "2018-03-05T10:44:11.746Z",
-    "title": "The Man Who Mistook His Wife for a Hat",
-    "available": true,
-    "color": "W",
-    "authors": [8]
-  }
-}, {
-  "model": "books.book",
-  "pk": 35,
-  "fields": {
-    "created": "2018-03-05T10:44:49.974Z",
-    "title": "Awakenings",
-    "available": true,
-    "color": "W",
-    "authors": [8]
-  }
-}, {
-  "model": "books.book",
-  "pk": 36,
-  "fields": {
-    "created": "2018-03-05T10:48:06.032Z",
-    "title": "Zoo City",
-    "available": true,
-    "color": "W",
-    "authors": [9]
-  }
-}, {
-  "model": "books.book",
-  "pk": 37,
-  "fields": {
-    "created": "2018-03-05T10:48:21.023Z",
-    "title": "The Shining Girls",
-    "available": true,
-    "color": "R",
-    "authors": [9]
-  }
-}, {
-  "model": "books.book",
-  "pk": 38,
-  "fields": {
-    "created": "2018-03-05T10:49:52.575Z",
-    "title": "Eleanor and Park",
-    "available": true,
-    "color": "W",
-    "authors": [10]
-  }
-}, {
-  "model": "books.book",
-  "pk": 39,
-  "fields": {
-    "created": "2018-03-05T10:50:01.885Z",
-    "title": "Fangirl",
-    "available": true,
-    "color": "G",
-    "authors": [10]
-  }
-}, {
-  "model": "books.book",
-  "pk": 40,
-  "fields": {
-    "created": "2018-03-05T12:12:00.671Z",
-    "title": "Jane Eyre",
-    "available": true,
-    "color": "K",
-    "authors": [11]
-  }
-}, {
-  "model": "books.book",
-  "pk": 41,
-  "fields": {
-    "created": "2018-03-05T12:17:11.613Z",
-    "title": "How to Live Safely in a Science Fictional Universe",
-    "available": true,
-    "color": "R",
-    "authors": [12]
-  }
-}, {
-  "model": "books.book",
-  "pk": 42,
-  "fields": {
-    "created": "2018-03-05T12:17:49.407Z",
-    "title": "Sorry Please Thank You",
-    "available": true,
-    "color": "W",
-    "authors": [12]
-  }
-}, {
-  "model": "books.book",
-  "pk": 43,
-  "fields": {
-    "created": "2018-03-05T12:19:07.679Z",
-    "title": "The Importance of Being Earnest",
-    "available": true,
-    "color": "K",
-    "authors": [13]
-  }
-}, {
-  "model": "books.book",
-  "pk": 44,
-  "fields": {
-    "created": "2018-03-05T12:20:11.854Z",
-    "title": "The Picture of Dorian Gray",
-    "available": true,
-    "color": "Gr",
-    "authors": [13]
-  }
-}, {
-  "model": "books.book",
-  "pk": 45,
-  "fields": {
-    "created": "2018-03-05T12:20:54.090Z",
-    "title": "The Selfish Giant",
-    "available": true,
-    "color": "B",
-    "authors": [13]
-  }
-}, {
-  "model": "books.book",
-  "pk": 46,
-  "fields": {
-    "created": "2018-03-05T12:20:54.090Z",
-    "title": "Good Omens",
-    "available": true,
-    "color": "K",
-    "authors": [14, 15]
-  }
-}, {
-  "model": "books.book",
-  "pk": 47,
-  "fields": {
-    "created": "2018-03-05T12:20:54.090Z",
-    "title": "Neverwhere",
-    "available": true,
-    "color": "G",
-    "authors": [15]
-  }
-}, {
-  "model": "books.book",
-  "pk": 48,
-  "fields": {
-    "created": "2018-03-05T12:20:54.090Z",
-    "title": "Coraline",
-    "available": true,
-    "color": "P",
-    "authors": [15]
-  }
-}, {
-  "model": "books.book",
-  "pk": 49,
-  "fields": {
-    "created": "2018-03-05T12:20:54.090Z",
-    "title": "The Color of Magic",
-    "available": true,
-    "color": "O",
-    "authors": [14]
-  }
-}, {
-  "model": "books.book",
-  "pk": 50,
-  "fields": {
-    "created": "2018-03-05T12:20:54.090Z",
-    "title": "Wee Free Men",
-    "available": true,
-    "color": "B",
-    "authors": [14]
-  }
-}, {
-  "model": "books.book",
-  "pk": 51,
-  "fields": {
-    "created": "2018-03-05T12:20:54.090Z",
-    "title": "The Hogfather",
-    "available": true,
-    "color": "Y",
-    "authors": [14]
-  }
-}]
+]
