@@ -18,6 +18,7 @@ from django.urls import path, include
 from rest_framework.routers import SimpleRouter
 from rest_framework import routers
 from books import views
+from rest_framework_jwt.views import obtain_jwt_token
 
 
 class OptionalSlashRouter(routers.DefaultRouter):
@@ -32,5 +33,5 @@ router.register('authors', views.AuthorViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
-    path('login/', views.login)
+    path('login/', obtain_jwt_token)
 ]
