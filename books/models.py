@@ -37,7 +37,7 @@ class Book(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     title = models.CharField(max_length=255)
     available = models.BooleanField(default=True)
-    color = models.CharField(max_length=2, choices=COLOR_CHOICES)
+    color = models.CharField(max_length=255, choices=COLOR_CHOICES)
     authors = models.ManyToManyField(Author, related_name='books')
 
     def __str__(self):
