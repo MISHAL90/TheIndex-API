@@ -33,5 +33,6 @@ router.register('authors', views.AuthorViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
-    path('login/', obtain_jwt_token)
+    path('login/', obtain_jwt_token),
+    path('signup/', views.UserCreateAPIView.as_view())
 ]
