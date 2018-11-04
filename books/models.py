@@ -31,7 +31,7 @@ class Book(models.Model):
         ('black', 'black'),
         ('white', 'white'),
         ('grey', 'grey'),
-        ('pruple', 'purple'),
+        ('purple', 'purple'),
         ('orange', 'orange'),
     )
     created = models.DateTimeField(auto_now_add=True)
