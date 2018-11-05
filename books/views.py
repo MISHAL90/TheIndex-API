@@ -1,5 +1,5 @@
 import time
-
+from rest_framework.response import Response
 from rest_framework import viewsets, mixins, serializers
 
 from .models import Author, Book
@@ -17,6 +17,21 @@ class BookViewSet(viewsets.ModelViewSet):
             return BookDetailSerializer
         return BookSerializer
 
+    def create(self, request):
+        serializer = BookSerializer(data=request.data)
+        if serializer.is_valid(raise_exception=True):
+            valid_data = serializer.data
+            book = Book.objects.create(
+                title = valid_data['title'],
+                color = valid_data['color']
+                )
+            book.authors.set(valid_data['authors'])
+            book.save()
+            book_json = BookDetailSerializer(book).data
+            return Response(book_json)
+        return Response(serializer.errors)
+
+
 
 class AuthorViewSet(viewsets.ModelViewSet):
     """
@@ -29,4 +44,4 @@ class AuthorViewSet(viewsets.ModelViewSet):
             return AuthorListSerializer
         if self.action == 'retrieve':
             return AuthorDetailSerializer
-        return AuthorDetailSerializer
+        return AuthorListSerializer
