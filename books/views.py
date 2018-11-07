@@ -5,7 +5,7 @@ from rest_framework.generics import CreateAPIView
 
 
 from .models import Author, Book
-from .serializers import AuthorListSerializer, AuthorDetailSerializer, BookSerializer, UserCreateSerializer
+from .serializers import AuthorListSerializer, AuthorDetailSerializer, BookSerializer, BookDetailSerializer, UserCreateSerializer
 
 from django.contrib.auth import authenticate
 from rest_framework.decorators import api_view
