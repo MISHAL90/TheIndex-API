@@ -7,15 +7,17 @@ from rest_framework_jwt.settings import api_settings
 class UserCreateSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True)
     token = serializers.CharField(read_only=True, allow_blank=True)
+    email = serializers.EmailField(write_only=True)
 
     class Meta:
         model = User
-        fields = ['username', 'password', 'token']
+        fields = ['username', 'password','email', 'token']
 
     def create(self, validated_data):
         username = validated_data['username']
         password = validated_data['password']
-        new_user = User(username=username)
+        email = validated_data['email']
+        new_user = User(username=username, email=email)
         new_user.set_password(password)
         new_user.save()
 
