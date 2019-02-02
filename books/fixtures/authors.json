@@ -1,136 +1,152 @@
-[{
-  "model": "books.author",
-  "pk": 1,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "first_name": "J.K.",
-    "last_name": "Rowling",
-    "imageUrl": "https://nation.com.pk/digital_images/large/2015-05-10/jk-rowling-believes-in-standing-up-to-bullies-1431261222-3596.jpeg"
+[
+  {
+    "model": "books.author",
+    "pk": 1,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "first_name": "J.K.",
+      "last_name": "Rowling",
+      "imageUrl": "https://nation.com.pk/digital_images/large/2015-05-10/jk-rowling-believes-in-standing-up-to-bullies-1431261222-3596.jpeg"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 2,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "first_name": "George R.R.",
+      "last_name": "Martin",
+      "imageUrl": "https://typeset-beta.imgix.net/elite-daily/2016/03/06144207/elite-daily-George-RR-Martin.jpg?w=800&h=800&auto=format&q=70&fit=crop&crop=faces"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 3,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "first_name": "J.R.R",
+      "last_name": "Tolkein",
+      "imageUrl": "https://images.8tracks.com/cover/i/010/010/920/tolkeinbigger-2362.jpg?rect=166,0,500,500&q=98&fm=jpg&fit=max"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 4,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "first_name": "Margaret",
+      "last_name": "Atwood",
+      "imageUrl": "https://literature.britishcouncil.org/assets/Uploads/writers/_resampled/CroppedImage680680-Margaret-Atwood-c-Jean-Malek-web.jpg"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 5,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "first_name": "Naguib",
+      "last_name": "Mahfouz",
+      "imageUrl": "http://speakingtigerbooks.com/wp-content/uploads/2016/06/naguib-mahfouz-5.jpg"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 6,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "first_name": "Agatha",
+      "last_name": "Christie",
+      "imageUrl": "http://images.archant.co.uk/polopoly_fs/1.4811429.1481285995!/image/image.jpg_gen/derivatives/landscape_630/image.jpg"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 7,
+    "fields": {
+      "created": "2018-02-27T08:29:22.789Z",
+      "first_name": "Jordan",
+      "last_name": "Peterson",
+      "imageUrl": "https://pbs.twimg.com/profile_images/941508335966343169/xsxkTLe0.jpg"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 8,
+    "fields": {
+      "created": "2018-03-05T10:42:53.710Z",
+      "first_name": "Oliver",
+      "last_name": "Sachs",
+      "imageUrl": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_80%2Cw_300/MTIwNjA4NjMzOTYzMzgyMjg0/oliver-wolf-sacks-9468963-1-402.jpg"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 9,
+    "fields": {
+      "created": "2018-03-05T10:47:42.177Z",
+      "first_name": "Lauren",
+      "last_name": "Beukes",
+      "imageUrl": "https://images.hanselminutes.com/images/306.jpg"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 10,
+    "fields": {
+      "created": "2018-03-05T10:49:27.443Z",
+      "first_name": "Rainbow",
+      "last_name": "Rowell",
+      "imageUrl": "https://vignette.wikia.nocookie.net/marveldatabase/images/b/b5/Rainbow_Rowell_%28Earth-1218%29_001.jpg/revision/latest?cb=20180123185455"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 11,
+    "fields": {
+      "created": "2018-03-05T12:10:36.762Z",
+      "first_name": "Charlotte",
+      "last_name": "Bront\u00eb",
+      "imageUrl": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_80%2Cw_300/MTE4MDAzNDEwNzg2ODc4OTkw/charlotte-bronte-11919959-1-402.jpg"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 12,
+    "fields": {
+      "created": "2018-03-05T12:13:25.109Z",
+      "first_name": "Charles",
+      "last_name": "Yu",
+      "imageUrl": "https://www.kcrw.com/news-culture/shows/bookworm/charles-yu-how-to-live-safely-in-a-science-fictional-universe/@@images/square_image/feature"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 13,
+    "fields": {
+      "created": "2018-03-05T12:18:41.633Z",
+      "first_name": "Oscar",
+      "last_name": "Wilde",
+      "imageUrl": "https://mgtowmind.files.wordpress.com/2017/12/oscar-wilde-3.jpg?w=1000"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 14,
+    "fields": {
+      "created": "2018-03-05T12:18:41.633Z",
+      "first_name": "Terry",
+      "last_name": "Pratchett",
+      "imageUrl": "http://pixel.nymag.com/imgs/daily/vulture/2015/03/12/12-terry-pratchett-1.w529.h529.jpg"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 15,
+    "fields": {
+      "created": "2018-03-05T12:18:41.633Z",
+      "first_name": "Neil",
+      "last_name": "Gaiman",
+      "imageUrl": "https://pixel.nymag.com/imgs/daily/vulture/2015/08/03/neil-gaiman/03-neil-gaiman.w330.h330.jpg"
+    }
   }
-}, {
-  "model": "books.author",
-  "pk": 2,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "first_name": "George R.R.",
-    "last_name": "Martin",
-    "imageUrl": "https://typeset-beta.imgix.net/elite-daily/2016/03/06144207/elite-daily-George-RR-Martin.jpg?w=800&h=800&auto=format&q=70&fit=crop&crop=faces"
-  }
-}, {
-  "model": "books.author",
-  "pk": 3,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "first_name": "J.R.R",
-    "last_name": "Tolkein",
-    "imageUrl": "https://images.8tracks.com/cover/i/010/010/920/tolkeinbigger-2362.jpg?rect=166,0,500,500&q=98&fm=jpg&fit=max"
-  }
-}, {
-  "model": "books.author",
-  "pk": 4,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "first_name": "Margaret",
-    "last_name": "Atwood",
-    "imageUrl": "https://literature.britishcouncil.org/assets/Uploads/writers/_resampled/CroppedImage680680-Margaret-Atwood-c-Jean-Malek-web.jpg"
-  }
-}, {
-  "model": "books.author",
-  "pk": 5,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "first_name": "Naguib",
-    "last_name": "Mahfouz",
-    "imageUrl": "http://speakingtigerbooks.com/wp-content/uploads/2016/06/naguib-mahfouz-5.jpg"
-  }
-}, {
-  "model": "books.author",
-  "pk": 6,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "first_name": "Agatha",
-    "last_name": "Christie",
-    "imageUrl": "http://images.archant.co.uk/polopoly_fs/1.4811429.1481285995!/image/image.jpg_gen/derivatives/landscape_630/image.jpg"
-  }
-}, {
-  "model": "books.author",
-  "pk": 7,
-  "fields": {
-    "created": "2018-02-27T08:29:22.789Z",
-    "first_name": "Jordan",
-    "last_name": "Peterson",
-    "imageUrl": "https://pbs.twimg.com/profile_images/941508335966343169/xsxkTLe0.jpg"
-  }
-}, {
-  "model": "books.author",
-  "pk": 8,
-  "fields": {
-    "created": "2018-03-05T10:42:53.710Z",
-    "first_name": "Oliver",
-    "last_name": "Sachs",
-    "imageUrl": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_80%2Cw_300/MTIwNjA4NjMzOTYzMzgyMjg0/oliver-wolf-sacks-9468963-1-402.jpg"
-  }
-}, {
-  "model": "books.author",
-  "pk": 9,
-  "fields": {
-    "created": "2018-03-05T10:47:42.177Z",
-    "first_name": "Lauren",
-    "last_name": "Beukes",
-    "imageUrl": "https://images.hanselminutes.com/images/306.jpg"
-  }
-}, {
-  "model": "books.author",
-  "pk": 10,
-  "fields": {
-    "created": "2018-03-05T10:49:27.443Z",
-    "first_name": "Rainbow",
-    "last_name": "Rowell",
-    "imageUrl": "https://vignette.wikia.nocookie.net/marveldatabase/images/b/b5/Rainbow_Rowell_%28Earth-1218%29_001.jpg/revision/latest?cb=20180123185455"
-  }
-}, {
-  "model": "books.author",
-  "pk": 11,
-  "fields": {
-    "created": "2018-03-05T12:10:36.762Z",
-    "first_name": "Charlotte",
-    "last_name": "Bront\u00eb",
-    "imageUrl": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_80%2Cw_300/MTE4MDAzNDEwNzg2ODc4OTkw/charlotte-bronte-11919959-1-402.jpg"
-  }
-}, {
-  "model": "books.author",
-  "pk": 12,
-  "fields": {
-    "created": "2018-03-05T12:13:25.109Z",
-    "first_name": "Charles",
-    "last_name": "Yu",
-    "imageUrl": "https://www.kcrw.com/news-culture/shows/bookworm/charles-yu-how-to-live-safely-in-a-science-fictional-universe/@@images/square_image/feature"
-  }
-}, {
-  "model": "books.author",
-  "pk": 13,
-  "fields": {
-    "created": "2018-03-05T12:18:41.633Z",
-    "first_name": "Oscar",
-    "last_name": "Wilde",
-    "imageUrl": "https://mgtowmind.files.wordpress.com/2017/12/oscar-wilde-3.jpg?w=1000"
-  }
-}, {
-  "model": "books.author",
-  "pk": 14,
-  "fields": {
-    "created": "2018-03-05T12:18:41.633Z",
-    "first_name": "Terry",
-    "last_name": "Pratchett",
-    "imageUrl": "http://pixel.nymag.com/imgs/daily/vulture/2015/03/12/12-terry-pratchett-1.w529.h529.jpg"
-  }
-}, {
-  "model": "books.author",
-  "pk": 15,
-  "fields": {
-    "created": "2018-03-05T12:18:41.633Z",
-    "first_name": "Neil",
-    "last_name": "Gaiman",
-    "imageUrl": "http://www.portsmouthguildhall.org.uk/GenerateImage.aspx?file=images/articles/a60375_crop_Neil%20Gaiman.jpg&resize=T&height=600&width=600&s=521964038"
-  }
-}]
+]
