@@ -603,5 +603,16 @@
       "color": "green",
       "authors": [17]
     }
+  },
+  {
+    "model": "books.book",
+    "pk": 56,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "القرموع الاحمر",
+      "available": true,
+      "color": "red",
+      "authors": [17]
+    }
   }
 ]
