@@ -559,5 +559,49 @@
       "color": "yellow",
       "authors": [14]
     }
+  },
+  {
+    "model": "books.book",
+    "pk": 52,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "One Flew Over the Laila's Nest",
+      "available": true,
+      "color": "purple",
+      "authors": [16]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 53,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "The Falsafa of Laila",
+      "available": true,
+      "color": "blue",
+      "authors": [16]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 54,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "The Importance of Being Laila",
+      "available": true,
+      "color": "yellow",
+      "authors": [16]
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 55,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "Becoming Bu Waleed",
+      "available": true,
+      "color": "green",
+      "authors": [17]
+    }
   }
 ]
