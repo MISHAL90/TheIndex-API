@@ -148,5 +148,25 @@
       "last_name": "Gaiman",
       "imageUrl": "https://pixel.nymag.com/imgs/daily/vulture/2015/08/03/neil-gaiman/03-neil-gaiman.w330.h330.jpg"
     }
+  },
+  {
+    "model": "books.author",
+    "pk": 16,
+    "fields": {
+      "created": "2018-03-05T12:18:41.633Z",
+      "first_name": "Lailz",
+      "last_name": "Elwailz",
+      "imageUrl": "https://sketchok.com/images/articles/01-cartoons/000-va/47/10.jpg"
+    }
+  },
+  {
+    "model": "books.author",
+    "pk": 17,
+    "fields": {
+      "created": "2018-03-05T12:18:41.633Z",
+      "first_name": "Bu",
+      "last_name": "Waleed",
+      "imageUrl": "https://instagram.fkwi1-1.fna.fbcdn.net/vp/b8628e9ed5c637f40bcbdceb0e431dc4/5CC723CC/t51.2885-19/s320x320/37140802_1806994362749547_1611884166578700288_n.jpg?_nc_ht=instagram.fkwi1-1.fna.fbcdn.net"
+    }
   }
 ]
