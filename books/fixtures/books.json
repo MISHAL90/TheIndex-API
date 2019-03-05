@@ -614,5 +614,16 @@
       "color": "red",
       "authors": [17]
     }
+  },
+  {
+    "model": "books.book",
+    "pk": 57,
+    "fields": {
+      "created": "2018-03-05T12:20:54.090Z",
+      "title": "The Coward's Way Out",
+      "available": true,
+      "color": "red",
+      "authors": [18]
+    }
   }
 ]
